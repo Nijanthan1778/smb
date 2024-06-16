@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    width: 100%;
+    /* height: 100vh; */
+}
+html {
+    margin: 0;
+    min-width: 100%;
+    /* min-height: 100%; */
+    overflow-x: hidden;
+    font-size: 10px;
+
+  }
+
+body{
+    background-image:url('../images/bg.png'), linear-gradient(0deg, #ffffff 0%, #16284c 58%, #16284c 100%);
+    /* background-image:url('/assests/images/Layer\ 5.png'), linear-gradient(to bottom,#142342,#274175,#1d3769,#2e56a0,#e8edf7); */
+    /* height: 100vh; */
+    background-position: left 166px, 0px 0px;
+    background-repeat: no-repeat;
+    margin: 0;
+    /* min-width: 100%;
+    min-height: 100%; */
+    overflow-x: hidden;
+    background-position: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* #16284c */
+/* #16284c */
+/* //////////////////////////////nav-start //////////////////////// */
+nav{
+    background-color:#fff;
+    height: 13.6rem;
+    border-radius: 0.6rem;
+    margin: 15px;
+    position: relative;
+}
+.logo{
+    max-width: 343px;
+    margin: auto 0;
+    position:absolute;
+    top:50%;
+    left: 2.8rem;
+    transform: translateY(-50%);
+}
+
+
+/* //////////////////////////////nav-end //////////////////////// */
+
+/* //////////////////////////////container-start //////////////////////// */
+main{
+    color: #fff;
+    font-family:  'Titillium Web', sans-serif;
+    padding: 9.8rem 6.8rem 11rem 6.8rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 2.6rem;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+input{
+    margin-top: 1rem;
+    width: 40rem;
+    height: 4.6rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+
+#username{
+    margin-bottom: 2rem;
+}
+
+#password{
+    margin-bottom: 2.8rem;
+}
+
+#submit{
+    background-color: #9e8f68;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 2.8rem;
+
+}
+
+.form a{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-flex-1{
+    display: flex;
+    width: 40rem;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 7.6rem;
+}
+
+.right-content p{
+    font-size: 1.6rem;
+}
+
+.right-content hr{
+ opacity: 0.5;
+ margin: 2.8rem 0 2.8rem 0;
+}
+
+.right-content{
+    margin-top: 11rem;
+}
+
+.left-content-2 h4,.right-content-2 h4{
+    font-size: 2.6rem;
+    padding-bottom: 1.8rem;
+}
+
+.left-content-2-flex{
+    display: flex;
+    gap: 8px;
+}
+.left-content-2-flex img{
+    height: 100%;
+}
+.date-flex{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    /* justify-content: center; */
+}
+.date{
+    font-size: 1.6rem;
+    display: inline-block;
+    /* margin-left: 8px; */
+    /* margin-bottom: 1.4rem; */
+}
+
+.announcment{
+    font-size: 1.4rem;
+    /* margin-left: 21.5px; */
+    color: #16284c;
+
+}
+.bottom-content{
+    /* max-width: 1144px; */
+    font-family:  'Titillium Web', sans-serif;
+
+}
+.left-content-2,
+.right-content-2{
+    background-color: #fff;
+    color: #16284c;
+    padding:0.8rem 2.2rem 0 2.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    height: 300px;
+    opacity: 0.702;
+    filter: drop-shadow(0px 3px 9px rgba(0,0,0,0.3));
+}
+.left-content-2{
+    max-width: 724px;
+}
+.right-content-2{
+    max-width: 400px;
+    padding-right: 80px;
+}
+
+.left-content-2-hr{
+    margin-top: 1.8rem;
+    margin-bottom: 1.7rem;
+}
+
+.right-content-2 ul{
+   margin-left: 1.8rem;
+}
+
+.right-content-2 ul li{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.right-content-2 ul li::marker{
+    font-size: 1.8rem;
+}
+.right-content-2 ul hr{
+    margin: 1rem 0 1rem 0;
+    margin-left: -18px;
+    max-width: 358px;
+}
+
+.bottom-content{
+    display: flex;
+    gap: 2.2rem;
+    padding: 0 2.6rem;
+}
+/* //////////////////////////////container-end //////////////////////// */
+
+
+/* //////////////////////////////footer-start //////////////////////// */
+
+footer{
+    background-color: #fff;
+    height: 6.6rem;
+    margin-top: 6rem;
+     
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1134px ;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    left: -8px;
+}
+
+.footer-flex p{
+    font-size: 1.4rem;
+    font-family:  'Titillium Web', sans-serif;
+}
+.footer-logos img{
+    width: 2.4rem;
+}
+
+.footer-logos img:first-child{
+    margin-right: 0.8rem;
+}
+/* //////////////////////////////footer-end //////////////////////// */
+
+/* ////////////////////////////////media-queries/////////////////////// */
+/* @media only screen and (max-width:1150px){
+    .left-content-2{
+        max-width: 600px;
+    }
+   
+    .bottom-content {
+        justify-content: space-between;
+    }
+} */
+
+@media only screen and (max-width:1150px){
+    .bottom-content {
+        flex-direction: column;
+    }
+    .left-content-2,  .right-content-2,.right-content-2 ul hr{
+        max-width: 100%;
+    }
+    .right-content-2{
+        padding-right: 2.2rem;
+    }
+    .footer-flex{
+        max-width: 1115px;
+        margin: 0 30px;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:820px){
+    .top-content{
+        flex-direction: column;
+    }
+    .right-content{
+        margin-top: 1rem;
+    }
+
+    .form-flex-1{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+    .logo{
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:570px){
+    html{
+        font-size: 9px;
+    }
+
+    .footer-flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .left-content-2-flex img{
+        width: 8px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    html{
+        font-size: 9px;
+    }
+
+    .left-content-2{
+        height: 366px;
+    }
+
+    main{
+        padding: 2.6rem;
+    }
+    .date-flex{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .date-flex p:nth-child(2){
+        display: none;
+    }
+    .logo {
+        max-width: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    nav{
+        height: 9.6rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
